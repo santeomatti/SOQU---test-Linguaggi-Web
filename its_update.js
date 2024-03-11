@@ -8,7 +8,10 @@
     }
     let contenuto="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg"
     let immagine = document.getElementsByTagName("img");
+    console.log(immagine);
     immagine[4].attributes.src.textContent="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg";
+    immagine[5].attributes.src.textContent="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg";
+    immagine[6].attributes.src.textContent="https://upload.wikimedia.org/wikipedia/commons/a/a0/W3Schools_logo.svg";
     
 
 
